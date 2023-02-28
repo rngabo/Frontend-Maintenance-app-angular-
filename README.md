@@ -1,28 +1,26 @@
-# Angular
+# Angular Streetlight Maintenance App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+This is an Angular-based front-end application that displays data from a Laravel-based back-end application for streetlight maintenance and notification purposes. The application receives data from the Laravel back-end via RESTful APIs and displays it in a user-friendly interface.
 
-## Development server
+# Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Node.js
+Angular CLI
+A running Laravel back-end application
+Installation
+Clone the repository to your local machine using the command git clone https://github.com/<username>/<repository-name>.git
+Navigate to the project directory using the command cd <repository-name>
+Install the required packages using the command npm install
+Open the environment.ts file and configure the API endpoint URL to point to your Laravel back-end application
 
-## Code scaffolding
+# Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run the server using the command ng serve
+Navigate to localhost:4200 on your browser to access the application
+Use the application to display useful information for streetlight maintenance and notifications
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Build
+# License
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Frontend-Maintenance-app-angular-
+MIT
