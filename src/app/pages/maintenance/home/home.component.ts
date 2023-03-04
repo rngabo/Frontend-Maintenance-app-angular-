@@ -11,6 +11,7 @@ export class HomeComponent {
   globalstatus: any;
   totalluminaire: any;
   offline: any;
+  fuselink:any;
 
   constructor(private http: HttpClient) { }
 
@@ -24,7 +25,10 @@ export class HomeComponent {
     this.http.get('http://127.0.0.1:8000/api/offline').subscribe((response) => {
       this.offline = response;
     });
-
+    this.http.get('http://127.0.0.1:8000/api/fuselinkordriver').subscribe((response) => {
+      this.fuselink = response;
+    });
+    
 
   }
 }
